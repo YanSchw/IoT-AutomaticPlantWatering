@@ -1,10 +1,11 @@
-# IoT
-Internet of Thing - Semester IV - Labor
+# Automatic Plant Watering Device
 
-## SSH Tunnel
-```
-ssh -L 8086:localhost:8086 iot-projekt@141.41.35.170
-```
-Password: **ubuntu**
+![project.png](../docs/project.png)
 
-Now access InfluxDB @ http://localhost:8086
+## About
+The Device uses the Arduino Framework and was developed using PlatformIO. <br>
+Code was written for an ESP32 connected with the following sensors:
+- BMP280 Pressure sensor
+
+## Deploying
+Open this folder ```Device/``` in PlatformIO to deploy onto a Device.
