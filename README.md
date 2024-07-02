@@ -1,4 +1,4 @@
-# IoT Dashboard
+# Automatic Plant Watering
 
 ![project.png](docs/project.png)
 
@@ -11,6 +11,9 @@
 
 ### Diagrams
 ![diagrams.png](docs/diagrams.png)
+
+## Deployment on Device
+The Device code can be found in ```Device/``` and can be opened and deployed using PlatformIO. The code was written for an ESP32.
 
 ## Prerequisites on Ubuntu
 ```
@@ -62,7 +65,7 @@ Once the JAR file is built, you can run it using
 - Ask questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/vaadin) or join our [Discord channel](https://discord.gg/MYFq5RTbBn).
 - Report issues, create pull requests in [GitHub](https://github.com/vaadin).
 
-## Deploying on Proxmox
+## Deploying on a Server
 - Purge old docker images
 ```
 sudo docker stop $(sudo docker ps -aq) && sudo docker rm $(sudo docker ps -aq) && sudo docker rmi $(sudo docker images -q)
